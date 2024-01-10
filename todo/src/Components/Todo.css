@@ -1,0 +1,48 @@
+.MyTodoApp{
+    background-color: rgb(55, 248, 248);
+    padding: 50px;
+    border-radius: 15px;
+    border: 3px solid rgb(8, 94, 94);
+}
+input{
+    height: 35px;
+    border-radius: 10px;
+    width: 350px;
+}
+.addTodo button{
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.myList{
+    margin-top: 20px;
+}
+button:hover{
+    border: 1px solid red;
+}
+input:hover{
+    border: 1px solid red;
+}
+.myTask{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 20px;
+    background-color: rgb(182, 243, 243);
+    border-radius: 10px;
+}
+.myTask p{
+    margin: 2px;
+}
+.myTask button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttons button{
+    height: 25px;
+}
